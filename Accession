@@ -4,3 +4,7 @@ names = ["xkn59438", "yhdck2", "eihd39d9", "chdsye847", "hedle3455", "xjhd53e", 
 for name in names:
 	if re.search(r"5", name):
 		 print("\t" + name)
+
+for name in names:
+	if re.search(r"(d|e)", name):
+		print("\t" + name)
