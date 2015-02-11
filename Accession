@@ -1,0 +1,6 @@
+#Accession names
+
+names = ["xkn59438", "yhdck2", "eihd39d9", "chdsye847", "hedle3455", "xjhd53e", "45da", "de37dp"]
+for name in names:
+	if re.search(r"5", name):
+		 print("\t" + name)
