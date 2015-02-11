@@ -12,3 +12,7 @@ for name in names:
 for name in names:
         if re.search(r"d.*e", name):
                 print("\t" + name)
+
+for name in names:
+        if re.search(r"(d.e)", name):
+                print("\t" + name)
