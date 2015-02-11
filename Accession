@@ -28,3 +28,7 @@ for name in names:
 for name in names:
         if re.search(r"^(x|y).*e$", name):
                 print("\t" + name)
+
+for name in names:
+        if re.search(r"\d{3,}", name):
+                print("\t" + name)
