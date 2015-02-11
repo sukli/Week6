@@ -16,3 +16,7 @@ for name in names:
 for name in names:
         if re.search(r"(d.e)", name):
                 print("\t" + name)
+
+for name in names:
+	if re.search(r"d.*e", name) or re.search(r"e.*d", name):
+		print("\t" + name)
